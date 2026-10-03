@@ -19,7 +19,7 @@ jobs:
         with:
           server: ftp-webjobs.alwaysdata.net # Change if using another host
           username: webjobs
-          password: clase1234
+          password: clase123
           server-dir: www/ # Replace with your correct path
           protocol: ftps
           timeout: 86400000
