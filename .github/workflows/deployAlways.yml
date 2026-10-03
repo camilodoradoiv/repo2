@@ -17,9 +17,9 @@ jobs:
       - name: 📂 Sincronizando archivos via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp-ccdoriv.alwaysdata.net # Change if using another host
-          username: ccdoriv
-          password: 251804ys
+          server: ftp-webjobs.alwaysdata.net # Change if using another host
+          username: webjobs
+          password: clase1234
           server-dir: www/ # Replace with your correct path
           protocol: ftps
           timeout: 86400000
